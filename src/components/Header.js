@@ -4,14 +4,24 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="menu">
-                <ul>
-                    <li>Welcome</li>
-                    <li>About me</li>
-                    <li>Works</li>
-                    <li>Contact</li>
+                <ul className="menu_list">
+                    <li>
+                        <a href="#" >Welcome</a>
+                    </li>
+                    <li>
+                        <a href="#">About me</a>
+                    </li>
+                    <li>
+                        <a href="#">Works</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <img src="../stylesheets/images/dolly.png" alt="logo"></img>
+                    </li>
                 </ul>
             </nav>
-            <image src="../stylesheets/images/Dollify-c11a2fa7-8f10-4ae6-ada0-409bbc9c4b26-3.png" alt="logo"></image>
         </header>
     )
 }
