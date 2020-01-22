@@ -1,0 +1,24 @@
+.welcome{
+    background-image: url('../images/images.jpeg');
+    background-size: cover;
+    height: 93vh;
+    width: 100vw;
+    font-family:$font-welcome;
+.welcome_title{
+    color: orange;
+    
+    font-size: 100px;
+}
+.welcome_name{
+    color: rgb(26, 2, 241);
+    font-weight: 700;
+    font-size:25px;
+
+}
+.welcome_text{
+    max-width: 50vw;
+    background-color: orange;
+    color:black;
+    font-size: 18px;
+}
+}
