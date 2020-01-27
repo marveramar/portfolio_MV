@@ -2,8 +2,7 @@
     background-image: url('../images/IMG_20200122_223042.jpg');
     background-size: cover;
     background-position: 25%;
-    height: 93vh;
-    width: 100vw;
+    height: 93vh;    
     font-family:$font-welcome;
     display:flex;
     flex-direction: column;
@@ -33,19 +32,19 @@
             font-weight: 700;
             font-size:25px;
 
-            }
-            .welcome_text{
-            max-width: 84vw;
-            background-color: orange;
-            color:$color-black;
-            font-size: 18px;
-            padding:10px;
-            @include laptop{
-                max-width: 50%;
-                padding:20px;
+             }
+         .welcome_text{
+         max-width: 84vw;
+         background-color: orange;
+         color:$color-black;
+         font-size: 18px;
+        padding:10px;
+         @include laptop{
+             max-width: 50%;
+            padding:20px;
         
-            }  
-        } 
+         }  
+         } 
         }
         .down{
             display: flex;
@@ -54,6 +53,12 @@
             position: relative;
             top:125px;
             color: $color-blue;
+            @include tablet{
+                top: 250px;
+            }
+            @include laptop{
+                top:125px;
+            }
           
         }      
 }
@@ -67,3 +72,6 @@
     from {opacity:0;}
     to {opacity:1;}
 }
+// *{
+//     overflow-x:hidden;
+// }
