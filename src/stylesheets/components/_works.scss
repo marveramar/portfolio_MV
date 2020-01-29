@@ -1,0 +1,31 @@
+.works_description{
+    text-align: center;
+    margin-top:30px;
+    font-family:$font-menu;
+    font-size: 18px;
+    line-height: 2;
+
+    .works_title{
+        color:orange;
+        font-family: $font-welcome;
+        font-size: 30px;
+        font-weight: 800;
+        text-decoration: underline;
+    }
+    .works_languages{
+        color:$color-blue;
+        font-weight: 600;       
+    }
+    .works_subtitle{
+        margin-top:20px;
+        line-height: 1.5;
+    }
+    .works_links{
+    
+        .img{
+            border: 2px solid orange;
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

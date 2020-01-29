@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
         .welcome_title{
+        padding-left:10px;
         height: 50px;
         color: orange;    
         font-size: 100px;
@@ -15,51 +16,47 @@
         animation-name: hello;
         animation-duration: 2.2s;
         animation-fill-mode: forwards;
-
         }
         .welcome_presentation{
+            padding:20px;
             display:flex;
             flex-direction: column;
             justify-content: space-evenly;
             height:250px;
             animation-name: appear;
             animation-duration: 5s;            
-            animation-fill-mode: forwards;
-         
+            animation-fill-mode: forwards;         
             .welcome_name{
-            display:block;    
-            color:	$color-blue;
-            font-weight: 700;
-            font-size:25px;
-
-             }
-         .welcome_text{
-         max-width: 84vw;
-         background-color: orange;
-         color:$color-black;
-         font-size: 18px;
-        padding:10px;
-         @include laptop{
-             max-width: 50%;
-            padding:20px;
-        
-         }  
-         } 
+                display:block;    
+                color:	$color-blue;
+                font-weight: 700;
+                font-size:25px;
+            }
+            .welcome_text{
+                max-width: 84vw;
+                background-color: orange;
+                color:$color-black;
+                font-size: 18px;
+                padding:10px;
+                @include laptop{
+                    max-width: 50%;
+                    padding:20px;
+                }  
+            } 
         }
         .down{
             display: flex;
             flex-direction: column;
             align-items: center;
             position: relative;
-            top:125px;
+            top:105px;
             color: $color-blue;
             @include tablet{
                 top: 250px;
             }
             @include laptop{
-                top:125px;
-            }
-          
+                top:105px;
+            }          
         }      
 }
 
@@ -72,6 +69,3 @@
     from {opacity:0;}
     to {opacity:1;}
 }
-// *{
-//     overflow-x:hidden;
-// }

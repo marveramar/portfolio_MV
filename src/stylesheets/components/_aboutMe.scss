@@ -1,21 +1,32 @@
-.aboutMe{
-    font-family: $font-menu;
-    font-size: 20px;
-    line-height: 2;
-    padding: 20px;
-    margin-top:30px;
-    .aboutMe_description-phrase{
-        font-family: $font-welcome;
-        color:$color-blue;
-    }
-    @include tablet{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    
-    .aboutMe_description{
-        max-width: 50vw;       
 
+.aboutMeSection{
+    margin-top:30px;
+    text-align: center;
+    .aboutMe_title{
+        text-decoration: underline;
+        font-family: $font-welcome;
+        color:orange;
+        font-weight: 800;
+        font-size: 30px;
     }
-}
+    .aboutMe{
+        font-family: $font-menu;
+        font-size: 18px;
+        line-height: 2;
+        text-align: left;
+        padding: 20px;
+        margin-top:30px;
+        .aboutMe_description-phrase{
+           font-weight: 600;
+            color:$color-blue;
+        }
+        @include tablet{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+            .aboutMe_description{
+                max-width: 50vw;       
+            }
+        }
+    }
 }

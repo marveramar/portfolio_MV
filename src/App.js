@@ -3,6 +3,7 @@ import './stylesheets/App.scss'
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 import AboutMe from './components/AboutMe';
+import Works from './components/Works';
 
 class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
       <Header />
       <Welcome />
       <AboutMe />
+      <Works />
     </div>
   }
 }

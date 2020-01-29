@@ -9,7 +9,7 @@ const Welcome = () => {
                 <p className="welcome_text"> My mind ,that has thirst for knowledge, is always active looking for new challenges and ways to see the world</p>
             </div>
             <div className="down">
-                <p className="down_more">Go to know more about me </p>
+                <p className="down_more">Know more about me </p>
                 <i class="fas fa-chevron-down"></i>
             </div>
         </section>

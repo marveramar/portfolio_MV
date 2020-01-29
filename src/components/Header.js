@@ -9,13 +9,13 @@ const Header = () => {
                         <a href="#" >Welcome</a>
                     </li>
                     <li>
-                        <a href="#">About me</a>
+                        <a href="#aboutMe">About me</a>
                     </li>
                     <li>
-                        <a href="#">Works</a>
+                        <a href="#works">Works</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#footer">Contact</a>
                     </li>
                     <li>
                         <img src="../stylesheets/images/dolly.png" alt="logo"></img>
