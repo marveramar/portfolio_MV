@@ -1,13 +1,14 @@
 import React from 'react';
+import Logo from '../stylesheets/images/dolly.png';
 
 const Header = () => {
     return (
         <header className="header">
             <nav className="menu">
                 <ul className="menu_list">
-                    <li>
+                    {/* <li>
                         <a href="#" >Welcome</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#aboutMe">About me</a>
                     </li>
@@ -18,7 +19,7 @@ const Header = () => {
                         <a href="#footer">Contact</a>
                     </li>
                     <li>
-                        <img src="../stylesheets/images/dolly.png" alt="logo"></img>
+                        <img className="logo" src={Logo} alt="logo"></img>
                     </li>
                 </ul>
             </nav>

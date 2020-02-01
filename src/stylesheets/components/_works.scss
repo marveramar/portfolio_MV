@@ -1,33 +1,39 @@
-.works_description{
-    text-align: center;
-    margin-top:30px;
-    font-family:$font-menu;
-    font-size: 18px;
-    line-height: 2;
-
-    .works_title{
-        color:orange;
-        font-family: $font-welcome;
-        font-size: 30px;
-        font-weight: 800;
-        text-decoration: underline;
+.works{
+    background-image: url('../images/bubles.png');
+    .works_description{
+        text-align: center;
+        margin-top:30px;
+        font-family:$font-menu;
+        font-size: 18px;
+        line-height: 2;
+        .works_title{
+            color:orange;
+            font-family: $font-welcome;
+            font-size: 30px;
+            font-weight: 800;
+            text-decoration: underline;
+        }
+        .works_languages{
+            color:$color-blue;
+            font-weight: 600;       
+        }
+        .works_subtitle{
+            margin:5px;
+            margin-top:20px;
+            line-height: 1.5;
+        } 
     }
-    .works_languages{
-        color:$color-blue;
-        font-weight: 600;       
+    .works_list{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        row-gap: 5px;
+        flex-wrap: wrap;
+        margin:30px;
+        .img{
+            width: 80px;
+            height: 100px;
+            border: 2px solid orange;
+        }
     }
-    .works_subtitle{
-        margin-top:20px;
-        line-height: 1.5;
-    } 
 }
-.works_list{
-    display:flex;
-    flex-direction: row-reverse;
-    margin:5px;
-    .img{
-        width: 80px;
-        height: 100px;
-        border: 2px solid orange;
-    }
-    }

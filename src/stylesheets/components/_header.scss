@@ -4,15 +4,16 @@
     height: 7vh;
     font-family: $font-menu;
     font-size: 18px;
-
-
-}
-.menu_list{
-    padding-top: 2vh;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
- 
+    .menu_list{
+        padding-top: 2vh;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;    
+       .logo{
+          width: 20px;
+          border-radius: 50px;        
+        }
+    }  
 }
 a:link, a:visited, a:active{    
     color:white;

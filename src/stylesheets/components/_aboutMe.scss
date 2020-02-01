@@ -1,5 +1,5 @@
-
-.aboutMeSection{
+.aboutMeSection{  
+    background-image: url('../images/bubles.png');
     margin-top:30px;
     text-align: center;
     .aboutMe_title{
@@ -20,6 +20,8 @@
             width: 100px;
             height: 150px;
             border-radius: 50px;
+            position: relative;
+            left:30%;
         }
         .aboutMe_description-phrase{
             font-weight: 600;
@@ -28,7 +30,7 @@
         @include tablet{
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: space-around;
             .aboutMe_description{
                 max-width: 50vw;       
             }
