@@ -2,8 +2,8 @@ import React from 'react';
 import Perfil from '../stylesheets/images/dolly.png';
 
 const AboutMe = () => {
-    return <section className="aboutMeSection">
-        <h4 className="aboutMe_title">About Me</h4><a name="aboutMe"></a>
+    return <section className="aboutMeSection"><a name="aboutMe"></a>
+        <h4 className="aboutMe_title">About Me</h4>
         <div className="aboutMe">
             <img className="aboutMe_img" src={Perfil} alt="fotografía de la autora" />
             <div className="aboutMe_description">

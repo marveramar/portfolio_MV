@@ -1,6 +1,6 @@
 .header{
     background-color: black;
-    color:white;
+    color: $color-white;
     height: 7vh;
     font-family: $font-menu;
     font-size: 18px;
@@ -17,4 +17,13 @@
 }
 a:link, a:visited, a:active{    
     color:white;
+    &:hover{
+        animation-name: menu;
+        animation-duration: .5s;
+        animation-fill-mode: forwards;  
+    }
+}
+@keyframes menu {
+    from{color:$color-white; }
+    to{color: orange;}
 }

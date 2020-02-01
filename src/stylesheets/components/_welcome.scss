@@ -14,7 +14,7 @@
         font-size: 100px;
         position: relative;
         animation-name: hello;
-        animation-duration: 2.2s;
+        animation-duration: 2.5s;
         animation-fill-mode: forwards;
         }
         .welcome_presentation{
@@ -50,6 +50,9 @@
             align-items: center;
             position: relative;
             top:105px;
+            .fa-chevron-down{
+                color: $color-blue;
+            }            
             color: $color-blue;
             @include tablet{
                 top: 250px;

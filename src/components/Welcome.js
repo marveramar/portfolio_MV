@@ -10,7 +10,7 @@ const Welcome = () => {
             </div>
             <div className="down">
                 <p className="down_more">Know more about me </p>
-                <i class="fas fa-chevron-down"></i>
+                <a href="#aboutMe"><i class="fas fa-chevron-down"></i></a>
             </div>
         </section>
     )
