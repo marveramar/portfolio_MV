@@ -19,13 +19,15 @@
     .works_subtitle{
         margin-top:20px;
         line-height: 1.5;
-    }
-    .works_links{
-    
-        .img{
-            border: 2px solid orange;
-            height: 50px;
-            width: 50px;
-        }
-    }
+    } 
 }
+.works_list{
+    display:flex;
+    flex-direction: row-reverse;
+    margin:5px;
+    .img{
+        width: 80px;
+        height: 100px;
+        border: 2px solid orange;
+    }
+    }
