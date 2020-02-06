@@ -1,7 +1,7 @@
 .aboutMeSection{  
-    background-image: url('../images/bubles.png');
     margin-top:30px;
     text-align: center;
+    background-image: url('../images/bubles.png'); 
     .aboutMe_title{
         text-decoration: underline;
         font-family: $font-welcome;
@@ -35,7 +35,10 @@
         .aboutMe_description-phrase{
             font-weight: 600;
             color:$color-blue;
-        }       
+        }    
+        .aboutMe_description-download{
+            color: orange;
+        }   
         @include tablet{
         display: flex;
         flex-direction: row-reverse;
