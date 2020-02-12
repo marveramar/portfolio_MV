@@ -3,6 +3,7 @@ import ProyectOne from '../stylesheets/images/P1.png';
 import ProyectTwo from '../stylesheets/images/P2.png';
 import ProyectThree from '../stylesheets/images/P3.png';
 import FinalThree from '../stylesheets/images/R&M.png';
+import Numbers from '../stylesheets/images/numb.png';
 
 
 const Works = () => {
@@ -42,6 +43,11 @@ const Works = () => {
                     <p className="work_list-title">Rick&Morty</p>
                     <p className="work_list-description">Development of web search for characters from a cartoon series. It is a SPA application implemented in React, using React router.</p>
                     <a href="https://github.com/marveramar/modulo-3-evaluacion-final-marveramar" target="blank"><img className="work_list-img" src={FinalThree} alt="finalThree" /></a>
+                </li>
+                <li>
+                    <p className="work_list-title">Number Game</p>
+                    <p className="work_list-description">Development of web game which consist in guess a number with one clue. Use of JavaScript to make it dynamic, and CSS3 to give styles.</p>
+                    <a href="https://github.com/marveramar/evaluacion-intermedia-modulo-2-marveramar" target="blank"><img className="work_list-img" src={Numbers} alt="finalThree" /></a>
                 </li>
 
             </ul>
