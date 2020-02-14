@@ -5,7 +5,7 @@
     .aboutMe_title{
         text-decoration: underline;
         font-family: $font-welcome;
-        color:orange;
+        color: $color-orange;
         font-weight: 800;
         font-size: 30px;
     }
@@ -37,7 +37,7 @@
             color:$color-blue;
         }    
         .aboutMe_description-download{
-            color: orange;
+            color: $color-orange;
         }   
         @include tablet{
         display: flex;

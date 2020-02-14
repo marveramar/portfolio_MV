@@ -10,7 +10,7 @@
         .welcome_title{
         padding-left:10px;
         height: 50px;
-        color: orange;    
+        color: $color-orange;    
         font-size: 100px;
         position: relative;
         animation-name: hello;
@@ -34,7 +34,8 @@
             }
             .welcome_text{
                 max-width: 84vw;
-                background-color: orange;
+                background-color: $color-orange;
+                opacity: 0.9;
                 color:$color-black;
                 font-size: 18px;
                 padding:10px;

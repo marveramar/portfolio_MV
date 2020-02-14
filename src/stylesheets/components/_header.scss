@@ -10,8 +10,14 @@
         flex-direction: row;
         justify-content: space-around;    
        .logo{
-          width: 20px;
-          border-radius: 50px;        
+          width: 50px; 
+          @include tablet{
+              width: 80px;
+          }   
+          @include laptop{
+              width: 80px;
+              height: 30px;
+          }  
         }
     }  
 }
@@ -25,5 +31,5 @@ a:link, a:visited, a:active{
 }
 @keyframes menu {
     from{color:$color-white; }
-    to{color: orange;}
+    to{color: $color-orange;}
 }

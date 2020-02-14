@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../stylesheets/images/logo.jpg';
 
 const Footer = () => {
     return (
@@ -21,7 +22,7 @@ const Footer = () => {
                     <a href="mailto:m.veramartin@gmail.com" target="blank">Email <i class="fas fa-envelope"></i></a>
                 </li>
                 <li>
-                    <a href="#welcome"><img className="footer_logo" src="" alt="logo" /></a>
+                    <a href="#welcome"><img className="footer_logo" src={Logo} alt="logo" /></a>
                 </li>
 
             </ul>
