@@ -1,5 +1,5 @@
 import React from 'react';
-import Perfil from '../stylesheets/images/dollybn.jpg';
+import Perfil from '../stylesheets/images/img1.jpg';
 import download from '../stylesheets/images/CV_María Vera.zip';
 
 const AboutMe = () => {
