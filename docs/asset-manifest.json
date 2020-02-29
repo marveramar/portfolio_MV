@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc1b7bfc.chunk.css",
+    "main.js": "/static/js/main.6f1b822b.chunk.js",
+    "main.js.map": "/static/js/main.6f1b822b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
+    "static/js/2.01decbad.chunk.js": "/static/js/2.01decbad.chunk.js",
+    "static/js/2.01decbad.chunk.js.map": "/static/js/2.01decbad.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4c78b61032468ad6d815dbff8e11b0c0.js": "/precache-manifest.4c78b61032468ad6d815dbff8e11b0c0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fc1b7bfc.chunk.css.map": "/static/css/main.fc1b7bfc.chunk.css.map",
+    "static/js/2.01decbad.chunk.js.LICENSE": "/static/js/2.01decbad.chunk.js.LICENSE",
+    "static/media/CV_María Vera.zip": "/static/media/CV_María Vera.2924f2ee.zip",
+    "static/media/P1.png": "/static/media/P1.7b0a06b0.png",
+    "static/media/P2.png": "/static/media/P2.e2561c0b.png",
+    "static/media/P3.png": "/static/media/P3.56da45fb.png",
+    "static/media/R&M.png": "/static/media/R&M.f882a910.png",
+    "static/media/index.scss": "/static/media/bubles.01f4b847.png",
+    "static/media/img1.jpg": "/static/media/img1.571f3e24.jpg",
+    "static/media/App.scss": "/static/media/imgBackground.fecdd858.jpg",
+    "static/media/logo.jpg": "/static/media/logo.fd54873c.jpg",
+    "static/media/numb.png": "/static/media/numb.5206195a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2b20a0b.js",
+    "static/js/2.01decbad.chunk.js",
+    "static/css/main.fc1b7bfc.chunk.css",
+    "static/js/main.6f1b822b.chunk.js"
+  ]
+}

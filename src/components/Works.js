@@ -27,12 +27,12 @@ const Works = (props) => {
 
                 <li>
                     <p className="work_list-title">Front-Walkers</p>
-                    <p className="work_list-description">Creation of a website with two pages, one for the presentation of the creative team and the other with a contact form. This was my first group project in the world of web development. We use HTML5, CSS3, Sass, Bootstrap and git for version control.</p>
+                    <p className="work_list-description">Creation of a website with two pages. One is a team introduction, the other a contact form. This was my first group project in the web development world. We used HTML5, CSS3, Sass, Bootstrap and git for version control.</p>
                     <a href="https://github.com/marveramar/project-promo-h-module-1-team-2-afternoon-sprint-2-" target="blank"><img className="work_list-img" src={ProyectOne} alt="link P1" /> </a>
                 </li>
                 <li>
                     <p className="work_list-title">Coco-Lab</p>
-                    <p className="work_list-description">Development of a dynamic website to create personalized contact cards. Use of JavaScript to create several functionalities. Developed in a work team with Agile philosophy.</p>
+                    <p className="work_list-description">Development of a dynamic website to create personalised contact cards. Use of JavaScript to create several functionalities. Developed in a work team with Agile philosophy.</p>
                     <a href="https://github.com/marveramar/project-promo-h-module-2-team-4-afternoon?organization=marveramar&organization=marveramar" target="blank"><img className="work_list-img" src={ProyectTwo} alt="link P2" /></a>
                 </li>
                 <li>
@@ -47,7 +47,7 @@ const Works = (props) => {
                 </li>
                 <li>
                     <p className="work_list-title">Number Game</p>
-                    <p className="work_list-description">Development of web game which consist in guess a number with one clue. Use of JavaScript to make it dynamic, and CSS3 to give styles.</p>
+                    <p className="work_list-description">Development of web game, which consists of guess a number with the help of one clue. Use of JavaScript to make it dynamic and CSS3 to give styles.</p>
                     <a href="https://github.com/marveramar/evaluacion-intermedia-modulo-2-marveramar" target="blank"><img className="work_list-img" src={Numbers} alt="finalThree" /></a>
                 </li>
 
