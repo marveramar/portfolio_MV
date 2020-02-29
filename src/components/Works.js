@@ -6,7 +6,7 @@ import FinalThree from '../stylesheets/images/R&M.png';
 import Numbers from '../stylesheets/images/numb.png';
 
 
-const Works = () => {
+const Works = (props) => {
     return <section className="works"><a name="works"></a>
         <div className="works_description">
             <h4 className="works_title">Works</h4>
@@ -24,6 +24,7 @@ const Works = () => {
         </div>
         <div>
             <ul className="works_list">
+
                 <li>
                     <p className="work_list-title">Front-Walkers</p>
                     <p className="work_list-description">Creation of a website with two pages, one for the presentation of the creative team and the other with a contact form. This was my first group project in the world of web development. We use HTML5, CSS3, Sass, Bootstrap and git for version control.</p>
