@@ -17,6 +17,7 @@ const Works = (props) => {
                 <i class="fab fa-sass"></i>
                 <i class="fab fa-bootstrap"></i>
                 <i class="fab fa-gulp"></i>
+                <i class="fab fa-js-square"></i>
                 <i class="fab fa-github-alt"></i>
                 <i class="fab fa-git-alt"></i>
             </div>
